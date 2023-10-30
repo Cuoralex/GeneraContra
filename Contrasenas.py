@@ -19,9 +19,9 @@ class TestGenerarContrasena(unittest.TestCase):
         self.assertEqual(len(contrasena_generada), longitud_contrasena)
 
 nombre = input("Ingrese su nombre: ")
-print("Bienvenido al generador de contraseñas " + nombre)
+print("Bienvenid@ al generador de contraseñas " + nombre)
 
-contra = int(input("¿Cuántos caracteres necesita? 1. De 6 caracteres. 2. De 7 caracteres. 3. De 8 caracteres.: "))
+contra = int(input("¿Cuántos caracteres necesita? 1. De 6 caracteres. 2. De 7 caracteres. 3. De 8 caracteres.?: "))
 
 if contra == 1:
     longitud_contrasena = 6
